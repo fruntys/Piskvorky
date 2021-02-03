@@ -14,7 +14,7 @@
 
     <br>
 
-    <form method="post" action="">
+    <form method="post" action="single-player-game.jsp">
         <button type="submit" class="btn btn-primary">Two players one PC</button>
     </form>
 

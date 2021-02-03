@@ -1,12 +1,52 @@
-table {
-    border: 1px solid black;
-    width: 35%;
-    height: 52.5%;
-    border-spacing: 0px;
-    margin: auto;
+.totalContainer{
+    text-align: center;
 }
 
-tr, th {
+.cellContainer {
+    display: grid;
+    grid-template-columns: repeat(15, auto);
+    width: 330px;
+    border: 2px solid black;
+    margin: 50px auto;
+    background: white;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    font-size: 12px;
+
+    width: 20px;
+    height: 20px;
+
     border: 1px solid black;
+
+    background: white;
+
     cursor: pointer;
+
+    float: left;
+}
+
+.sideSelectContainer {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: 44px;
+    margin: 10px auto;
+
+    border: 1px solid cornflowerblue;
+    visibility: hidden;
+}
+
+.sideCell {
+    font-family: "Permanent Marker", cursive;
+    font-size: 12px;
+
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid green;
+    cursor: pointer;
+
+    float: left;
+    visibility: hidden;
 }
