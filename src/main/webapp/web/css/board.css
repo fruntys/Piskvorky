@@ -1,0 +1,12 @@
+table {
+    border: 1px solid black;
+    width: 35%;
+    height: 52.5%;
+    border-spacing: 0px;
+    margin: auto;
+}
+
+tr, th {
+    border: 1px solid black;
+    cursor: pointer;
+}

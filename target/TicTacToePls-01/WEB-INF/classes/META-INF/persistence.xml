@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="TicTacToePls">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>cz.osu.kip.TTT.db.entities.UsersEntity</class>
+        <class>cz.osu.kip.TTT.db.entities.GamesEntity</class>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/tictactoe"/>
+            <property name="javax.persistence.jdbc.user" value="fruntys"/>
+            <property name="javax.persistence.jdbc.password" value="sa"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:derby://localhost:1527/tictactoe"/>
+            <property name="eclipselink.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+        </properties>
+    </persistence-unit>
+</persistence>
